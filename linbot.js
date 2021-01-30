@@ -8,7 +8,7 @@ client.once('ready', () => {
 
 client.on('message', message => {
 	if (message.content.toLowerCase() === `hello`) {
-		message.channel.send(`Hey ${message.author} how's it going?`);
+		message.channel.send(`Hey ${message.author} how's it going guys?`);
 	}
 });
 
