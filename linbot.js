@@ -1,38 +1,42 @@
 const Discord = require('discord.js');
-const { prefix, token } = require('./config.json');
-const axios = require('axios');
 const client = new Discord.Client();
+const {Translate} = require('@google-cloud/translate').v2;
+require('dotenv').config();
 
-const translate = (_message, original) => {
+const CREDENTIALS = JSON.parse(process.env.CREDENTIALS);
 
-	const config = {
-		headers: {
-			'Ocp-Apim-Subscription-Key': '398d6dd6a9a84dc7b8df5a4295224d3e',
-			'Content-Type': 'application/json',
-		}
-	}
+const translate = new Translate({
+    credentials: CREDENTIALS,
+    projectId: CREDENTIALS.project_id
+});
 
-	const body = `[{'Text':'${original}'}]`;
+const target = 'es';
 
-	axios.post(
-		'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=es', 
-		body,
-		config,)
-  .then((response) => {
-	_message.channel.send('done');
-   
-  });
-}
+const translateText = async (text) => {
+    try {
+        let [response] = await translate.translate(text, target);
+        return response;
+    } catch (error) {
+        console.log(`Error at translateText --> ${error}`);
+        return 0;
+    }
+};
+
 
 client.once('ready', () => {
 	console.log('Ready!');
 });
 
 client.on('message', message => {
-	if (message.content.toLowerCase() === `hello`) {
-		message.channel.send(`Hey ${message.author} how's it going guys?`);
-		translate(message);
-	}
+	if(!message.author.bot) {
+		translateText(message.content)
+		.then((res) => {
+			message.channel.send(res);
+		})
+		.catch((err) => {
+			message.channel.send(err);
+		});
+	 }
 });
 
-client.login(token);
+client.login(CREDENTIALS.token);
