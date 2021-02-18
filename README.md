@@ -6,10 +6,12 @@ npm install --save @google-cloud/translate
 
 ## Commands
 "$linbot [Language]" this command starts the process of translation specifying the target language. <br />
-"$linbot stop" this command stops the translation
+"$linbot stop" this command stops the translation.
  
 ## Technologies
- Google Cloud Translation <br />
+ Google Cloud Translation. <br />
+ 
+## Demo
 
-![Alt Text](https://imgflip.com/gif/4ygrul)
+![Alt Text](img/Gif 1.gif)
 
