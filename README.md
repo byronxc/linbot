@@ -11,8 +11,5 @@ npm install --save @google-cloud/translate
 ## Technologies
  Google Cloud Translation <br />
 
-![Alt Text](img/Gif 1)
-![Alt Text](img/Gif 2)
-![Alt Text](img/Gif 3)
-
+![Alt Text](img/Gif 1.gif)
 
