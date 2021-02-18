@@ -12,7 +12,7 @@ npm install --save @google-cloud/translate
  Google Cloud Translation. <br />
  
 ## Demo
-![](https://github.com/byronxc/linbot/blob/main/img/Gif%201.gif | width=100)
+![](https://github.com/byronxc/linbot/blob/main/img/Gif%201.gif)
 ![](https://github.com/byronxc/linbot/blob/main/img/Gif%202.gif)
 ![](https://github.com/byronxc/linbot/blob/main/img/Gif%203.gif)
 
