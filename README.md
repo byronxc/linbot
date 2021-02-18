@@ -13,5 +13,5 @@ npm install --save @google-cloud/translate
  
 ## Demo
 
-![Alt Text] (/img/Gif 1.gif)
+![Alt Text](/img/Gif 1.gif)
 
