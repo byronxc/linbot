@@ -13,5 +13,5 @@ npm install --save @google-cloud/translate
  
 ## Demo
 
-![](img/Gif 1.gif)
+![](https://github.com/byronxc/linbot/blob/main/img/Gif%201.gif)
 
