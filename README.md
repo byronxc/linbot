@@ -14,4 +14,6 @@ npm install --save @google-cloud/translate
 ## Demo
 
 ![](https://github.com/byronxc/linbot/blob/main/img/Gif%201.gif)
+![](https://github.com/byronxc/linbot/blob/main/img/Gif%202.gif)
+![](https://github.com/byronxc/linbot/blob/main/img/Gif%203.gif)
 
