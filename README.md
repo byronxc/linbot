@@ -1,5 +1,5 @@
 # linbot
-A discord bot that translates messages from english to any language using Google Cloud Translation.
+A discord bot that translates messages from english to any language using Google Cloud Translation API.
 
 ## Install dependencies
 npm install --save @google-cloud/translate
