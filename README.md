@@ -12,6 +12,7 @@ npm install --save @google-cloud/translate
  Google Cloud Translation. <br />
  
 ## Demo
+<img src="https://github.com/byronxc/linbot/blob/main/img/Gif%201.gif" width="50%" height"50%">
 
 ![](https://github.com/byronxc/linbot/blob/main/img/Gif%201.gif){:height="50%" width="50%"}
 ![](https://github.com/byronxc/linbot/blob/main/img/Gif%202.gif){:height="50%" width="50%"}
