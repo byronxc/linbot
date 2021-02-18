@@ -9,4 +9,7 @@ npm install --save @google-cloud/translate
 "$linbot stop" this command stops the translation
  
 ## Technologies
- Google Cloud Translation
+ Google Cloud Translation <br />
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
