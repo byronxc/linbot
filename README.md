@@ -13,7 +13,7 @@ npm install --save @google-cloud/translate
  
 ## Demo
 <img src="https://github.com/byronxc/linbot/blob/main/img/Gif%201.gif" width="50%" height"50%"/>
-<a href="https://imgflip.com/gif/3mcfy6"><img src="https://i.imgflip.com/3mcfy6.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/3mcfy6"><img src="https://i.imgflip.com/3mcfy6.gif" width="50%" height"50%" title="made at imgflip.com"/></a>
 
 
 ![](https://github.com/byronxc/linbot/blob/main/img/Gif%201.gif){:height="50%" width="50%"}
